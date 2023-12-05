@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Archivo Black', sans-serif;
+  background-color: #25252d;
+  color: #ffff;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  color: #00c497;
+  text-transform: uppercase;
+  margin-top: 5vh;
+  font-size: 60px;
+}
+
+strong {
+  color: #00c497;
+}
+
+ul {
+  list-style-type: none;
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+li {
+  display: flex;
+  gap: 10px;
+  line-height: 50px;
+}

@@ -4,9 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vue Email List</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
     <!-- Axios -->
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-
     <!-- Axios -->
     <link rel="stylesheet" href="css/style.css" />
   </head>
@@ -15,8 +23,8 @@
       <h1>Random email generator</h1>
       <ul>
         <li v-for="(email, index) in emails">
-          <span>{{ index + 1 }}</span>
-          <strong>{{ email }}</strong>
+          <strong>{{ index + 1 }}</strong>
+          <span>{{ email }}</span>
         </li>
       </ul>
     </div>
