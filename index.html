@@ -21,7 +21,7 @@
   <body>
     <div id="app" v-cloak>
       <h1>Random email generator</h1>
-      <ul>
+      <ul v-show="emails.length === 10">
         <li v-for="(email, index) in emails">
           <strong>{{ index + 1 }}</strong>
           <span>{{ email }}</span>
